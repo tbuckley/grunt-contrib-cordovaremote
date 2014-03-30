@@ -1,0 +1,31 @@
+{
+  "name": "grunt-contrib-remotecordova",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Tom Buckley",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbuckley/grunt-contrib-cordovaremote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tbuckley/grunt-contrib-cordovaremote/issues"
+  },
+  "homepage": "https://github.com/tbuckley/grunt-contrib-cordovaremote",
+  "license": "ISC",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "gruntplugin",
+    "cordova",
+    "remote",
+    "plugins"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "dependencies": {
+    "xml2js": "~0.4.2"
+  }
+}
