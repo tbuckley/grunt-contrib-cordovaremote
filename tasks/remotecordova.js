@@ -88,6 +88,9 @@ module.exports = function(grunt) {
       "module.exports.metadata = " + JSON.stringify(metadata) + ";\n" +
       "});";
     grunt.file.write(path.join(dest, "cordova_plugins.js"), pluginsConfig);
+
+    // Copy cordova.js (ANDROID-ONLY)
+    grunt.file.copy(path.join(src, "platforms/android/assets/www/cordova.js"), path.join(dest, "cordova.js"));
   };
 
 };
